@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     -->
+
+    <!-- ioicons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <title>Mobile App Design</title>
+  </head>
+  <body>
+    <header class="side-one">
+      <nav class="nav">
+        <div class="nav-items">
+          <ion-icon name="heart"></ion-icon>
+
+          <ul class="nav-list">
+            <li><ion-icon name="home" class="nav-icon"></ion-icon></li>
+            <li><ion-icon name="stats" class="nav-icon"></ion-icon></li>
+            <li><ion-icon name="wallet" class="nav-icon"></ion-icon></li>
+            <li><ion-icon name="funnel" class="nav-icon"></ion-icon></li>
+          </ul>
+        </div>
+
+        <ion-icon name="cog" class="nav-icon"></ion-icon>
+      </nav>
+    </header>
+
+
+    <main class="side-two">
+      <header>
+        <form class="form">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            class="search"
+            placeholder="Search..."
+          />
+          <button class="search-btn btn">
+            <ion-icon name="search"></ion-icon>
+          </button>
+        </form>
+
+        <div class="user-info">
+          <img src="./assets/user.jpg" alt="" class="user-img" />
+          <h2 class="user-name">Iduma Chika</h2>
+          <ion-icon name="notifications"></ion-icon>
+        </div>
+      </header>
+
+      <section class="details first-section">
+
+        <article class="card-details">
+          <h2 class="title">Cards</h2>
+          <div class="cards">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <p>Balance</p>
+                  <h2>$4,890</h2>
+                </div>
+                <img src="./assets/mastercard.png" alt="" />
+              </div>
+
+              <p class="card-number">1234 5678 9123 4567</p>
+
+              <div class="card-info">
+                <div>
+                  <h2>Valid Thru</h2>
+                  <p>09/24</p>
+                </div>
+                <div>
+                  <h2>Card Holder</h2>
+                  <p>Alex Smith</p>
+                </div>
+                <div>
+                  <img src="./assets/chip.png" alt="" class="chip">
+                </div>
+              </div>
+            </div>
+
+            <div class="folded-card">
+              <div class="fold-card">
+                <img src="./assets/mastercard.png" alt="" />
+
+                <div class="info">
+                  <div class="circles">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+
+                  <h2>3456</h2>
+                </div>
+              </div>
+              <div class="fold-card">
+                <img src="./assets/mastercard.png" alt="" />
+
+                <div class="info">
+                  <div class="circles">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+
+                  <h2>3456</h2>
+                </div>
+              </div>
+
+              <div class="fold-card">
+                <img src="./assets/mastercard.png" alt="" />
+
+                <div class="info">
+                  <div class="circles">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+
+                  <h2>3456</h2>
+                </div>
+              </div>
+              <div class="fold-card">
+                <img src="./assets/mastercard.png" alt="" />
+
+                <div class="info">
+                  <div class="circles">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+
+                  <h2>3456</h2>
+                </div>
+              </div>
+          </div>
+
+          <div></div>
+        </article>
+
+        <article>
+            <h2 class="title">Transfer money</h2>
+
+            <div class="transfer-details">
+                
+                <div class="transfer-header">
+                    <div class="transfer-heading">
+                        <ion-icon name="card"></ion-icon>
+                        <h2>Quick transfer</h2>
+                    </div>
+                    <img src="./assets/profile-imgs.png" alt="">
+                </div>
+
+               <div class="transfer-card">
+                   <p>1234 5321 6742 1265</p>
+                   <img src="./assets/visa.png" alt="">
+                   <div>
+                    <button class="btn submit-btn" >
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </button>
+                   </div>
+               </div>
+            </div>
+        </article>
+      </section>
+
+      <section class="details second-section">
+         <article>
+             <h2 class="title">Transactions</h2>
+
+             <ul class="transactions">
+                 <li class="transaction">
+                     <div class="sender">
+                         <ion-icon name="logo-skype"></ion-icon>
+                        <h2 class="name">Spotify</h2>
+                     </div>
+                     <p class="time">Aug 29, 1:15pm</p>
+                     <p class="amount">-$18.35</p>
+                 </li>
+                 <li class="transaction">
+                    <div class="sender">
+                        <ion-icon name="logo-skype"></ion-icon>
+                       <h2 class="name">Spotify</h2>
+                    </div>
+                    <p class="time">Aug 29, 1:15pm</p>
+                    <p class="amount">-$18.35</p>
+                </li>
+                <li class="transaction">
+                    <div class="sender">
+                        <ion-icon name="logo-skype"></ion-icon>
+                       <h2 class="name">Spotify</h2>
+                    </div>
+                    <p class="time">Aug 29, 1:15pm</p>
+                    <p class="amount">-$18.35</p>
+                </li>
+             </ul>
+         </article>
+      </section>
+    </main>
+  </body>
+</html>
